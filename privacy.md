@@ -7,7 +7,7 @@ permalink: /privacy/
 # Privacy Policy
 
 **Stride League**  
-**Effective date:** September 25, 2026
+**Effective date:** October 24, 2026
 
 Stride League is operated by **Judson Miller**, as an individual and not as a company. This is the Privacy Policy for the Stride League app on iPhone and Android.
 
@@ -46,19 +46,24 @@ You can say no. The app still opens. Totals stay empty or show the last real syn
 
 **Daily step total.** Optional. Read when you open the app, and in the background when the operating system allows it. Used to show your own today, day, week, month, and daily average, and to show standings in a private race you join. Supabase stores it in the United States. People in that race can see the step totals for that race, with display names. Your personal day history is not shown to them.
 
-**Race details.** If you create or join a race: the name, invite code, timezone, start and end, who is in it, when you joined, and which days count. A race is private, holds up to 20 people, and is joined by code. There is no public league. Someone who enters the code can see the name, dates, member count, and timezone before they join. They do not see step totals until they are in the race. If you join after the start, only days from your join day forward count. Supabase stores this. Members of the race can see the roster and the race’s step totals.
+**Race details.** If you create or join a race: the name, invite code, timezone, start and end, who is in it, when you joined, and which days count. A race is private and is joined by code. It holds up to 5 people. A race created with Stride League Plus holds up to 20. There is no public league. Someone who enters the code can see the name, dates, member count, and timezone before they join. They do not see step totals until they are in the race. If you join after the start, only days from your join day forward count. Supabase stores this. Members of the race can see the roster and the race’s step totals.
 
 **Push token.** Only if you allow notifications. Used to deliver a message that a race locked (including who won) or, optionally, that someone passed you. There is no daily nag. Apple Push Notification service or Google’s push service delivers that message. The message is not a copy of your step history.
 
 **Crash and diagnostic data.** Before the app is released for testing, crash reports will be collected by **one** of these tools: **Sentry** or **Google Firebase Crashlytics**. The tool receives crash logs, app version, device model, operating-system version, and an install identifier so repeated crashes can be grouped. It does not receive step totals, your display name, or your email. Crash reports are not combined with your step history. The tool is not used for advertising. There is no separate product-analytics product in this version of the app. You cannot turn crash reports off separately from using the app.
 
-The app does not take payment. It has no ads and no in-app purchases. It does not collect contacts, photos, precise location, the advertising identifier, a list of your other apps, or SMS.
+The app has no ads. It does not collect contacts, photos, precise location, the advertising identifier, a list of your other apps, or SMS. It does not collect payment card data.
+
+**Stride League Plus.** Optional. Judson Miller sells it on iPhone, in the United States, for **$3.99 per month**, through Apple In-App Purchase. Plus lets you create a race of up to 20 people. Without Plus, a race you create holds up to 5. Joining a race is free. If Plus ends, a race that already has the higher limit keeps it. The people already in it stay, and people can still join until it reaches that limit. A new race holds up to 5.
+
+Apple charges your Apple ID. The app does not receive your card number. **RevenueCat** receives the app user ID and the purchase status, which is whether Plus is active, so the app can apply the higher race limit. RevenueCat does not receive payment card data, step totals, your display name, or your email.
 
 ## Service providers
 
 - **Supabase** — database and account host, in the United States. Processes the account, name, email if any, timezone, step totals, and race data.
-- **Apple** — sign-in, Apple Health on the device, and push delivery if you allow notifications. Handles the sign-in you start. The step total stays on the device until the app reads it. A race notification is not your step history.
+- **Apple** — sign-in, Apple Health on the device, push delivery if you allow notifications, and payment for Stride League Plus on iPhone. Handles the sign-in you start. The step total stays on the device until the app reads it. A race notification is not your step history. Apple charges Plus to your Apple ID. The app does not receive your card number.
 - **Google** — sign-in, Health Connect on the device, and push delivery if you allow notifications. Handles the sign-in you start. The step total stays on the device until the app reads it. A race notification is not your step history.
+- **RevenueCat** — purchase status for Stride League Plus. Receives the app user ID and whether Plus is active. Does not receive payment card data, step totals, your display name, or your email.
 - **Sentry or Google Firebase Crashlytics** (one of the two, chosen before release) — crash reports. Processes crash and device diagnostics, not step totals.
 
 No other third party receives personal information or step totals for its own use.
@@ -76,6 +81,7 @@ This is the limited-use promise for Apple App Store Review Guideline 5.1.3, Guid
 - It is not used as a medical device, for diagnosis or treatment, or as HIPAA protected health information. Stride League is not a healthcare service.
 - It is not written back into Apple Health or Health Connect.
 - It is not stored in iCloud.
+- It is not sent to RevenueCat. RevenueCat receives the app user ID and Plus purchase status only, not step totals and not payment card data.
 - It is shared only as needed to run the feature: stored by Supabase so the app can show it to you and, for a race, to people in that race. You agree to that storage when you connect health access and use the app.
 - A race notification, if you allow notifications, goes through Apple’s or Google’s push service. That message is not your step history.
 - Judson Miller does not browse step totals out of curiosity. He may see them only if you contact him and he needs them to answer you, to investigate abuse or keep the service secure, to comply with the law, or as a combined figure that is not tied to you.
@@ -91,7 +97,7 @@ No storage method is perfect. Unauthorized access cannot be promised impossible.
 
 ## How long data is kept
 
-While your account exists, account information, personal step totals, and race information are kept so the app can show your history and your races. The account does not expire. There is no subscription.
+While your account exists, account information, personal step totals, and race information are kept so the app can show your history and your races. The account does not expire. Stride League Plus renews through Apple until you cancel it. Deleting the account does not cancel Plus.
 
 Crash reports are kept by the crash tool for up to **90 days**, then deleted by that tool. They are not used to rebuild an account.
 
@@ -115,6 +121,8 @@ You can delete the account in two ways. Neither one merely freezes it.
 
 What is deleted and what is kept is in the section above, and on that page.
 
+Deleting the account does not cancel Stride League Plus. Cancel Plus on the iPhone in **Settings**, under your name, then **Subscriptions**. Otherwise Apple keeps charging the Apple ID. A refund goes through Apple.
+
 ## Children
 
 Stride League is for people **13 and older**. It is not directed at children under 13. It is not an Apple Kids Category app and it is not a Google Play Families app.
@@ -134,6 +142,7 @@ You can:
 - Turn notifications off in system settings.
 - Sign out, which stops the app’s use of Apple or Google sign-in until you sign in again.
 - Delete the account in the app or from the [deletion page](https://koffeekinggamer.github.io/stride-league-legal/delete-account/).
+- Cancel Stride League Plus on the iPhone in **Settings**, under your name, then **Subscriptions**. Deleting the account does not cancel it.
 - Email nckoffeeking@gmail.com to ask what is held about you, to ask for a copy, or to ask for a correction of account information. Step totals come from Apple Health or Health Connect. The app cannot type a replacement number.
 
 **California.** If you live in California, you can ask Judson Miller to tell you the categories and specific pieces of personal information collected, the sources, the purpose, and who it is disclosed to; to delete personal information, subject to the locked-race totals described above; and to correct inaccurate account information. He will not discriminate against you for asking. Stride League does not sell personal information and does not share it for cross-context behavioral advertising, so there is no separate “Do Not Sell or Share My Personal Information” switch. Email nckoffeeking@gmail.com. He will respond within **45 days**. If he needs more time, he will email you and may take one extra 45 days, as California law allows. He will match the request to the account from the display name and the sign-in method. He will not ask you for a government ID.

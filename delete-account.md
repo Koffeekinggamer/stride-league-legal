@@ -70,4 +70,8 @@ A blank profile row may remain so the locked race still has a member to point at
 
 Leaving a race, or being removed by the person who created it, is not the same as deleting your account. On a locked race, leave or removal may still show the name you used.
 
+## Stride League Plus
+
+Deleting the account does not cancel Stride League Plus. Apple bills Plus. To stop the next renewal, cancel on the iPhone: open **Settings**, tap your name, tap **Subscriptions**, and tap **Stride League Plus**. Do this at least 24 hours before the month ends. A refund goes through Apple.
+
 The same rules are in the [Privacy Policy](https://koffeekinggamer.github.io/stride-league-legal/privacy/).

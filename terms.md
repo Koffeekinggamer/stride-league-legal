@@ -6,9 +6,9 @@ permalink: /terms/
 
 # Terms of Use — Stride League
 
-**Effective date:** September 25, 2026
+**Effective date:** October 24, 2026
 
-These terms are an agreement between you and **Judson Miller** for the Stride League app. **Stride League is operated by Judson Miller**, as an individual and not as a company. By creating an account or using the app, you agree to these terms. The [Privacy Policy](https://koffeekinggamer.github.io/stride-league-legal/privacy/) explains what is collected and how deletion works. If these terms and the Privacy Policy both talk about deletion or health data, they are meant to say the same thing.
+These terms are an agreement between you and **Judson Miller** for the Stride League app. **Stride League is operated by Judson Miller**, as an individual and not as a company. By creating an account or using the app, you agree to these terms. The [Privacy Policy](https://koffeekinggamer.github.io/stride-league-legal/privacy/) explains what is collected and how deletion works. If these terms and the Privacy Policy both talk about deletion, health data, or Stride League Plus, they are meant to say the same thing.
 
 Stride League is a casual way to see your own steps and, if you want, to compare steps with friends in a private race. It is not a gym service, not a prize desk, and not a medical product.
 
@@ -24,9 +24,25 @@ You must be able to agree to a contract to the extent the law where you live req
 
 After you allow health access, the app shows your own steps: today, day, week, month, and a daily average. That works with or without a race.
 
-A race is optional. Any signed-in person can create a named race, share a short invite code, and invite people they actually mean to invite. There is no public league and no directory of strangers. A race holds up to 20 people, runs for a limited time (about 31 days or less; the presets are 7, 14, and 30 days), and uses one timezone. When the time is up, there is a 12-hour window for late step syncs, then the result locks. Ties share the place. A rematch is a new race, not a reopening of the locked one.
+A race is optional. Any signed-in person can create a named race, share a short invite code, and invite people they actually mean to invite. There is no public league and no directory of strangers. A race holds up to 5 people, or up to 20 if it was created with Stride League Plus. It runs for a limited time (about 31 days or less; the presets are 7, 14, and 30 days), and uses one timezone. When the time is up, there is a 12-hour window for late step syncs, then the result locks. Ties share the place. A rematch is a new race, not a reopening of the locked one.
 
-The app is free in this version. There is no subscription, no in-app purchase, and no advertising. An account does not expire.
+Joining a race is free. The app has no advertising. An account does not expire. Stride League Plus is the optional subscription in the next section.
+
+## Stride League Plus
+
+Stride League Plus is an auto-renewing subscription sold by **Judson Miller** on iPhone, in the United States, through Apple In-App Purchase. The length is one month. The price is **$3.99 per month**.
+
+Plus lets you create a race of up to 20 people. Without Plus, a race you create holds up to 5 people. Joining a race is free either way.
+
+Apple charges the payment to your Apple ID when you confirm the purchase. Plus renews each month unless you cancel at least 24 hours before the current month ends. If you do not cancel in time, Apple charges your Apple ID **$3.99** for the next month within the 24 hours before that month ends.
+
+To manage or cancel Plus, open **Settings** on the iPhone, tap your name, tap **Subscriptions**, and tap **Stride League Plus**. Canceling stops the next renewal. It does not refund the month already paid. Refunds go through Apple. Judson Miller does not send the refund.
+
+Deleting your Stride League account does not cancel Plus. Cancel in iPhone Settings, or Apple keeps renewing the charge.
+
+If Plus ends, a race you already created keeps the higher limit it already had. It is not cut down to 5 people, and the people already in it stay. People can still join that race until it reaches that limit. A new race you create after Plus ends holds up to 5 people.
+
+RevenueCat tells the app whether Plus is active. It receives the app user ID and the purchase status. It does not receive payment card data. The [Privacy Policy](https://koffeekinggamer.github.io/stride-league-legal/privacy/) says the same thing.
 
 ## Accounts
 
@@ -56,7 +72,7 @@ The person who created a race may remove a member. Any member may leave. We may 
 
 A race is a private comparison of step totals among people who joined with the code. **Bragging rights only.**
 
-Stride League does not charge an entry fee, does not hold stakes, and does not award cash, gift cards, goods, or other prizes. It is not a sweepstakes, a lottery, a bookmaker, or a paid contest. We do not certify a result for anyone’s side bet.
+Stride League does not charge an entry fee, does not hold stakes, and does not award cash, gift cards, goods, or other prizes. It is not a sweepstakes, a lottery, a bookmaker, or a paid contest. We do not certify a result for anyone’s side bet. Stride League Plus is not an entry fee and not a prize. It only lets you create a larger race, as the section above describes.
 
 Do not use a race, an invite code, or a screenshot of the podium to collect money or run a prize competition. If friends arrange something like that on their own, outside the app, that arrangement is between them. It is not offered or endorsed by Stride League, and these terms do not make us a party to it.
 
@@ -88,9 +104,9 @@ Some places do not allow a disclaimer of certain warranties. In those places, th
 
 To the fullest extent the law allows, **Judson Miller** is not liable for indirect, incidental, special, consequential, or punitive damages, or for lost profits, lost data, lost goodwill, or a result that cost someone bragging rights, even if he was told that kind of loss was possible.
 
-Judson Miller’s total liability for any claim arising out of the app or these terms is limited to the amount you paid him for Stride League in the 12 months before the claim. This version of the app is free and has no in-app purchases, so that amount is **zero**.
+Judson Miller’s total liability for any claim arising out of the app or these terms is limited to the amount you paid him for Stride League in the 12 months before the claim. If you have not paid for Plus, that amount is **zero**. A Plus charge is billed by Apple, and a refund of that charge goes through Apple.
 
-These limits are a core part of the bargain for a free app. Some places do not allow certain limits, especially for harm the law does not let a contract waive. In those places, the limits apply only as far as the law allows. Nothing here limits liability for conduct the law says cannot be limited.
+These limits are a core part of the bargain. Some places do not allow certain limits, especially for harm the law does not let a contract waive. In those places, the limits apply only as far as the law allows. Nothing here limits liability for conduct the law says cannot be limited.
 
 ## Termination
 
@@ -98,7 +114,7 @@ You may stop using the app at any time. You may delete your account in **You**, 
 
 We may suspend or close an account, reject a name, or discontinue the app if these terms are broken, if we need to for security or legal reasons, or if we stop offering Stride League. If we discontinue the app, we do not sell the step history as a leftover product.
 
-Sections that by their nature should continue after the account ends still apply, including acceptable use as to anything already done, races and wagers, medical disclaimer, disclaimers, limitation of liability, and governing law.
+Sections that by their nature should continue after the account ends still apply, including acceptable use as to anything already done, races and wagers, Stride League Plus, medical disclaimer, disclaimers, limitation of liability, and governing law.
 
 ## Governing law
 
