@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page.title }} | {{ page.app_name }}</title>
+  <link rel="icon" href="{{ page.icon | relative_url }}" type="image/svg+xml">
+  {% include styles.html accent=page.accent %}
+</head>
+<body>
+  <a class="skip" href="#content">Skip to content</a>
+  <div class="wrap">
+    <div class="top">
+      <a class="brand" href="{{ '/' | relative_url }}">
+        <img src="{{ page.icon | relative_url }}" alt="" width="36" height="36">
+        <span>{{ page.app_name }}</span>
+      </a>
+      <a class="all-apps" href="{{ '/' | relative_url }}">All apps</a>
+    </div>
+    <main id="content">
+      {{ content }}
+    </main>
+    <footer>
+      <a href="{{ '/' | relative_url }}">All apps</a>
+      <a href="{{ page.app_base | append: '/privacy/' | relative_url }}">Privacy</a>
+      <a href="{{ page.app_base | append: '/support/' | relative_url }}">Support</a>
+      <a href="{{ page.app_base | append: '/delete-account/' | relative_url }}">Delete account</a>
+      <a href="{{ page.app_base | append: '/security/' | relative_url }}">Security</a>
+      {% if page.show_terms %}
+      <a href="{{ page.terms_path | default: '/terms/' | relative_url }}">Terms</a>
+      {% endif %}
+    </footer>
+  </div>
+</body>
+</html>
