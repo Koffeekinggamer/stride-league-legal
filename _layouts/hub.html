@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page.title }}</title>
+  <link rel="icon" href="{{ '/assets/site-icon.svg' | relative_url }}" type="image/svg+xml">
+  {% include styles.html accent="#1C1917" %}
+</head>
+<body>
+  <a class="skip" href="#content">Skip to content</a>
+  <div class="wrap">
+    <main id="content">
+      {{ content }}
+    </main>
+    <footer>
+      <a class="link-stride" href="{{ '/privacy/' | relative_url }}">Stride League privacy</a>
+      <a class="link-stride" href="{{ '/support/' | relative_url }}">Stride League support</a>
+      <a class="link-walkie" href="{{ '/walkie/privacy/' | relative_url }}">Walkie privacy</a>
+      <a class="link-walkie" href="{{ '/walkie/support/' | relative_url }}">Walkie support</a>
+    </footer>
+  </div>
+</body>
+</html>
