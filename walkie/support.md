@@ -26,11 +26,11 @@ The microphone records the voice clip while you are talking. Walkie uses it only
 
 ## Who can message me?
 
-Someone can start a conversation with you after they choose you in Walkie. You do not have to accept a request first. A block in either direction stops matching, stops new conversations, and stops adding that person to a group. A group can hold up to 20 people, including the person who creates it.
+At launch, someone you are not connected with can send a request. Nothing comes through until you accept. A block in either direction stops matching, stops new conversations, and stops adding that person to a group. A group can hold up to 20 people, including the person who creates it.
 
 ## How long are voice clips kept?
 
-No time limit is set yet, so voice files are not deleted on a schedule. Text stays so people who were in the conversation when it was sent can still read it. When a time limit is set, the audio file will be deleted and the message will show that the clip expired.
+At launch, a voice clip is deleted from the server 3 days after sending. The message stays and shows "Voice clip expired". Text stays so people who were in the conversation when it was sent can still read it.
 
 ## How do I block someone?
 

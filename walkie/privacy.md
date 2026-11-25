@@ -37,7 +37,7 @@ The person who runs the Supabase project can see that delivery metadata. They ca
 
 ## What is sent and stored
 
-The backend is Supabase. It hosts sign-in, the database, file storage, and the functions that ask Apple to deliver notifications.
+The backend is Supabase. It hosts sign-in, the database, file storage, and the functions that ask Apple to deliver notifications. The data is stored in the United States (us-east-1).
 
 For your account, Walkie stores:
 
@@ -71,7 +71,7 @@ Friends find each other by email, not by phone number.
 
 If you allow Contacts, the app reads email addresses on your phone and ignores phone numbers. It hashes each email on the phone and sends the hashes. The server returns the display name and account id of members who verified that email. It does not save the list of hashes. The app keeps the matches and discards the rest. It does not upload names from the contact card.
 
-If you say no to Contacts, Walkie still works. You can share the email friends should use, and they can add it on their phone. Someone who already matched you can also add you to a group.
+If you say no to Contacts, Walkie still works. You can share the email friends should use, and they can add it on their phone.
 
 The hash is SHA-256 of the email, after trimming space and lowercasing it. It is not a secret. Someone who can use matching could test an email address they already thought of. The hash exists so the contact list is not uploaded.
 
@@ -81,9 +81,9 @@ Sign in with Apple does not publish the private relay address for matching. You 
 
 ## Who can message you
 
-A match does not open a conversation by itself. Someone starts a conversation only after they choose you in the app. A block in either direction stops matching, new conversations, and adds to a group.
+At launch, messaging uses mutual consent. Someone you are not connected with can send a request. Nothing from that person comes through until you accept.
 
-This version does not use message requests. You do not accept a request before a message can be sent. If you do not want someone to reach you, block them.
+A block in either direction stops matching, new conversations, and adds to a group. If you do not want someone to reach you, block them.
 
 ## Microphone
 
@@ -91,21 +91,19 @@ Walkie uses the microphone only while you are talking, to record voice clips for
 
 ## Notifications
 
-Notifications go through Apple Push Notification service.
+At launch, notifications go through Apple Push Notification service. They do not include the text of a message, and they do not include the voice recording.
 
-They do not include the text of a message, and they do not include the voice recording.
+A voice notification does not include an alert title or the recording. It does include the sender's display name, the sender's account id, the conversation id, and the message id.
 
-A voice notification includes the sender's display name, plus ids for the conversation, the sender, and the message. The name is the display name on the profile, so your phone can label who is talking before it decrypts the clip. It is not the message.
+A text notification does not include the message or the sender's name. It sends the conversation id, the message id, and a sequence number.
 
-A text notification does not include the message. The banner says "New message". An encrypted preview that your phone would decrypt is planned, and it is not sent yet.
-
-Apple sees the notification data the way it sees any app's notifications. Apple is not a member of the encrypted conversation.
+Apple sees that notification data the way it sees any app's notifications. Apple is not a member of the encrypted conversation.
 
 ## How long data is kept
 
 Text is kept so people who were in the conversation when it was sent can still read it. A new phone does not get keys for older messages, and the server does not give that phone the old rows.
 
-Voice files are not meant to stay forever. No deletion window is set yet, so voice files are not deleted on a schedule. When a window is set, the audio file will be deleted and the message will show that the clip expired. The encrypted message that held the clip key can remain. That key does not open a deleted file, and the file does not open without the key.
+At launch, a voice clip is deleted from the server 3 days after sending. The message stays, and it shows "Voice clip expired". The encrypted message that held the clip key can remain. That key does not open a deleted file, and the file does not open without the key.
 
 ## Deleting your account
 
