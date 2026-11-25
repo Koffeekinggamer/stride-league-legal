@@ -54,7 +54,7 @@ When the deletion is completed on the live database:
 - Your display name is cleared.
 - Your phone timezone and push token are deleted.
 - Your **personal** day-by-day step totals (the ones only you could see) are deleted.
-- You are removed from races that are still going, including a race in its 12-hour catch-up window after the end.
+- You are removed from races that are still going, including a race in its 24-hour catch-up window after the end.
 
 Provider backups of that deleted data are not used to put your name or personal step history back. Those backup copies are removed within **30 days** after the live deletion.
 
