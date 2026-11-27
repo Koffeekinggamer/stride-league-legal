@@ -7,7 +7,7 @@ permalink: /privacy/
 # Privacy Policy
 
 **Stride League**  
-**Effective date:** September 25, 2026
+**Effective date:** October 1, 2026
 
 Stride League is operated by **Judson Miller**, as an individual and not as a company. This is the Privacy Policy for the Stride League app on iPhone and Android.
 
@@ -26,9 +26,11 @@ Email is the best way to reach him about privacy. Please do not send medical rec
 
 ## The only health data
 
-The only health data Stride League reads is the **daily step total** already added up by Apple Health (HealthKit) on iPhone or by Health Connect on Android. That total already combines a phone and a watch, so the same steps are not counted twice. The app stores that day’s number, which platform it came from, and when it was synced.
+The only health data Stride League reads is the **daily step total** from Apple Health (HealthKit) on iPhone or from Health Connect on Android, filtered to **one step source you choose** (for example **iPhone**, **Apple Watch**, **this phone** on Android, or **Samsung Health** on Android). The app also reads which app or device recorded those steps. Short-lived records on your phone may be read to identify that source; only the daily total, source label, origin id, **device model** (handset audit field), and sync time are stored on our servers. People in a private race with you can see your **source label** on standings; they do **not** see your handset model or internal plausibility flags. The **device model** is visible only to you and to the Stride League team, and is used only for fair-play checks. Stride League does not connect to third-party fitness accounts; it only reads what you allow through Apple Health or Health Connect.
 
-The app does not read heart rate, sleep, workouts, calories, distance, weight, location trails, clinical records, or any other health metric. It does not read raw step samples. It does not write anything back to Apple Health or Health Connect. It does not store step data in iCloud.
+**Fair-play limits on step totals.** A single sync of more than **200,000 steps** for one day is rejected. A day over **60,000** may be flagged for the race **creator** only. A high day isn’t an automatic ban or removal from a race.
+
+The app does not read heart rate, sleep, workouts, calories, distance, weight, location trails, clinical records, or any other health metric. It does not write anything back to Apple Health or Health Connect. It does not store step data in iCloud.
 
 You can say no. The app still opens. Totals stay empty or show the last real sync. The app will not show a zero that pretends a sync happened.
 
@@ -36,9 +38,9 @@ You can say no. The app still opens. Totals stay empty or show the last real syn
 
 “Collected” here means the app sends the information off your phone to run Stride League. Service providers below process it only on Judson Miller’s instructions to run the app. They are not allowed to use it for their own advertising or to sell it.
 
-**Account identifier.** When you sign in with Apple or Google, Stride League receives the identifier that provider gives it. There is no separate Stride League password. This is required to have an account. It is used to sign you in and keep your data attached to you. **Supabase** (database and sign-in host, in the United States) stores it. Apple or Google handles the sign-in you started. They do not receive the database of step totals.
+**Account identifier.** When you sign in with Apple, Google, or an **email sign-in link**, Stride League receives the identifier Supabase Auth assigns and, for Apple or Google, the identifier that provider gives it. There is no separate Stride League password stored by us. This is required to have an account. It is used to sign you in and keep your data attached to you. **Supabase** (database and sign-in host, in the United States) stores it. Apple, Google, or the email provider handles the sign-in you started. They do not receive the database of step totals.
 
-**Email address.** Only if Apple or Google shares one. Sign in with Apple can hide it. The app does not require an email to work. It is used to match a support or deletion request. Supabase stores it if it is received. It is not shown to other people in a race.
+**Email address.** When you use **Sign in with Apple**, Apple may hide your email. When you use the **email sign-in link**, you choose the address and Supabase stores it to deliver the link and to match support or deletion requests. The app does not require an email if you use Apple or Google only. It is not shown to other people in a race.
 
 **Display name.** Required. The app shows your initials, not a photo. The name labels your profile and, if you join a race, the board for that race. People in that race can see it. Supabase stores it.
 
@@ -46,20 +48,25 @@ You can say no. The app still opens. Totals stay empty or show the last real syn
 
 **Daily step total.** Optional. Read when you open the app, and in the background when the operating system allows it. Used to show your own today, day, week, month, and daily average, and to show standings in a private race you join. Supabase stores it in the United States. People in that race can see the step totals for that race, with display names. Your personal day history is not shown to them.
 
-**Race details.** If you create or join a race: the name, invite code, timezone, start and end, who is in it, when you joined, and which days count. A race is private, holds up to 20 people, and is joined by code. There is no public league. Someone who enters the code can see the name, dates, member count, and timezone before they join. They do not see step totals until they are in the race. If you join after the start, only days from your join day forward count. Supabase stores this. Members of the race can see the roster and the race’s step totals.
+**Race details.** If you create or join a race: the name, invite code, timezone, start and end, who is in it, when you joined, and which days count. A race is private, holds up to **5 people** on the free tier (or up to **20** with Stride League Plus), and is joined by code. There is no public league. Someone who enters the code can see the name, dates, member count, and timezone before they join. They do not see step totals until they are in the race. If you join after the start, only days from your join day forward count. Supabase stores this. Members of the race can see the roster and the race’s step totals.
 
 **Push token.** Only if you allow notifications. Used to deliver a message that a race locked (including who won) or, optionally, that someone passed you. There is no daily nag. Apple Push Notification service or Google’s push service delivers that message. The message is not a copy of your step history.
 
-**Crash and diagnostic data.** Before the app is released for testing, crash reports will be collected by **one** of these tools: **Sentry** or **Google Firebase Crashlytics**. The tool receives crash logs, app version, device model, operating-system version, and an install identifier so repeated crashes can be grouped. It does not receive step totals, your display name, or your email. Crash reports are not combined with your step history. The tool is not used for advertising. There is no separate product-analytics product in this version of the app. You cannot turn crash reports off separately from using the app.
+**Reports and blocks.** If you report another member, the app stores the reason, an optional note, which race it came from, and who reported whom in Supabase. A notification is sent to **nckoffeeking@gmail.com** so the Stride League team can review it within **24 hours**. If you block someone, Supabase stores that you blocked them. Their name is hidden on your phone; other people in the race still see them on the shared board.
 
-The app does not take payment. It has no ads and no in-app purchases. It does not collect contacts, photos, precise location, the advertising identifier, a list of your other apps, or SMS.
+**Purchases.** If you subscribe to **Stride League Plus**, or you redeem an Apple or Google offer code for it, Apple or Google processes the subscription and stores the payment method when the store asks for one. Stride League receives a transaction identifier, the product, the time, and whether the subscription is active, refunded, or expired. It uses that to set how many people a race you create can hold and to restore the subscription on a new phone. **RevenueCat** processes the receipt for Judson Miller and notifies the Stride League server. RevenueCat does not receive step totals, display names, or health data. Supabase stores the transaction identifier and roster cap rules tied to your account. Purchase history is kept for as long as the account exists so restore, refund handling, and tax records still work. It is not used for advertising and it is not sold. Signing up, creating a race of up to 5 people, and joining a race do not ask you for a card inside Stride League.
+
+**Crash and diagnostic data.** Stride League uses **Sentry** for crash and diagnostic reports. A report includes device and operating-system information, the app version, and an internal account ID (the Supabase auth id) so related errors can be connected. It does not include step data, messages, email, or display name. IP addresses are not stored. Sentry keeps reports for about **90 days**. These reports are used to find and fix problems in the app. They are not used for advertising. There is no separate product-analytics product in this version of the app. You cannot turn crash reports off separately from using the app.
+
+The app has **no ads**. It does not collect contacts, photos, precise location, the advertising identifier, a list of your other apps, or SMS.
 
 ## Service providers
 
-- **Supabase** — database and account host, in the United States. Processes the account, name, email if any, timezone, step totals, and race data.
-- **Apple** — sign-in, Apple Health on the device, and push delivery if you allow notifications. Handles the sign-in you start. The step total stays on the device until the app reads it. A race notification is not your step history.
-- **Google** — sign-in, Health Connect on the device, and push delivery if you allow notifications. Handles the sign-in you start. The step total stays on the device until the app reads it. A race notification is not your step history.
-- **Sentry or Google Firebase Crashlytics** (one of the two, chosen before release) — crash reports. Processes crash and device diagnostics, not step totals.
+- **Supabase**: database and account host, in the United States. Processes the account, name, email if any, timezone, step totals, race data, reports, blocks, and purchase-related fields the server stores.
+- **RevenueCat**: purchase receipts and the app user id only, so the server can set a race’s size cap and Plus status. Not step totals or health data.
+- **Apple**: sign-in, Apple In-App Purchase, Apple Health on the device, and push delivery if you allow notifications. Handles the sign-in and purchase flows you start. The step total stays on the device until the app reads it. A race notification is not your step history.
+- **Google**: sign-in, Google Play Billing, Health Connect on the device, and push delivery if you allow notifications. Handles the sign-in and purchase flows you start. The step total stays on the device until the app reads it. A race notification is not your step history.
+- **Sentry** receives crash and diagnostic reports, including device and operating-system information, the app version, and an internal account ID (the Supabase auth id). Those reports do not include step data, messages, email, or display name. IP addresses are not stored. Sentry keeps reports for about **90 days**.
 
 No other third party receives personal information or step totals for its own use.
 
@@ -91,14 +98,14 @@ No storage method is perfect. Unauthorized access cannot be promised impossible.
 
 ## How long data is kept
 
-While your account exists, account information, personal step totals, and race information are kept so the app can show your history and your races. The account does not expire. There is no subscription.
+While your account exists, account information, personal step totals, race information, and **Stride League Plus** status are kept so the app can show your history and your races and apply a race size cap. The account does not expire. **Stride League Plus** is optional. Apple or Google processes the subscription and stores the payment method. The app does not receive the card number. **RevenueCat** receives the Supabase account id and whether Plus is active, and notifies the Stride League server. Supabase stores that status with the account: whether Plus is active, the product id, when it expires, and whether it will cancel at the end of the period. The store transaction id is stored on the RevenueCat webhook record. Plus renews each month until the subscriber cancels it with Apple or Google. A race of up to **5 people** does not need Plus. Deleting the account removes Plus status on Stride League servers. It does not cancel the Apple or Google subscription. After deletion, the webhook record can keep the store transaction id with the account id removed.
 
-Crash reports are kept by the crash tool for up to **90 days**, then deleted by that tool. They are not used to rebuild an account.
+Sentry keeps crash and diagnostic reports for about **90 days**, then deletes them. They are not used to rebuild an account.
 
 After you delete the account:
 
 - Sign-in, email (if any), display name, phone timezone, push token, and **personal day-by-day step totals are deleted** from the live database when the deletion is completed.
-- You are removed from races that have not locked yet, including a race still in its 12-hour catch-up window.
+- You are removed from races that have not locked yet, including a race still in its 24-hour catch-up window.
 - On a race that has **already locked**, the step totals already counted stay so the result does not change. Your name is removed. The board shows **Former member**. Those totals are kept for as long as that race result is kept while Stride League operates, and they are not used for anything else. They are deleted if the app is shut down.
 - The profile row can remain as a blank tombstone so the locked race still has a member to point at. The name on it is cleared. This is not a frozen account. You cannot sign in again.
 - Copies in provider backups are not used to restore your name or personal step history. They are removed within **30 days** after the live deletion.
@@ -132,7 +139,7 @@ You can:
 - Deny or revoke health access, and keep using the app.
 - Leave a race.
 - Turn notifications off in system settings.
-- Sign out, which stops the app’s use of Apple or Google sign-in until you sign in again.
+- Sign out, which stops the app’s use of Apple, Google, or email sign-in until you sign in again.
 - Delete the account in the app or from the [deletion page](https://koffeekinggamer.github.io/stride-league-legal/delete-account/).
 - Email nckoffeeking@gmail.com to ask what is held about you, to ask for a copy, or to ask for a correction of account information. Step totals come from Apple Health or Health Connect. The app cannot type a replacement number.
 
