@@ -7,7 +7,7 @@ permalink: /privacy/
 # Privacy Policy
 
 **Stride League**  
-**Effective date:** October 1, 2026
+**Effective date:** November 27, 2026
 
 Stride League is operated by **Judson Miller**, as an individual and not as a company. This is the Privacy Policy for the Stride League app on iPhone and Android.
 
