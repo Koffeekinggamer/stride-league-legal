@@ -151,7 +151,7 @@ Stride League is operated from the United States. Information is stored in the U
 
 ## Changes
 
-If this policy changes, the new version is posted at [this same address](https://koffeekinggamer.github.io/stride-league-legal/privacy/) with a new effective date. If a change materially affects step data or who it is shared with, Judson Miller will tell you in the app before that date and will ask you to agree in the app before using step data in the new way. If he has your email, he may email you as well. The copy at https://strideleague.me/privacy/ is the one that applies.
+If this policy changes, the new version is posted at [this same address](https://strideleague.me/privacy/) with a new effective date. If a change materially affects step data or who it is shared with, Judson Miller will tell you in the app before that date and will ask you to agree in the app before using step data in the new way. If he has your email, he may email you as well. The copy at that address is the one that applies.
 
 ## Contact
 
